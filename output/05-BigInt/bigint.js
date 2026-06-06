@@ -1,0 +1,13 @@
+"use strict";
+// console.log("Number Example");
+// var bigNumber = 9007199254740991;
+// var x = 1;
+// var y = 2;
+// console.log(bigNumber + x);
+// console.log(bigNumber + y);
+console.log("BigInt Example");
+var bigNumber = 9007199254740991n;
+var x = 1n;
+var y = 2n;
+console.log(bigNumber + x);
+console.log(bigNumber + y);

@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    // "module": "ESNext",
+    "module": "commonjs",
+    "outDir": "./output",
+    "strict": true,
+    /// TODO: add for Decorators
+    "experimentalDecorators": true
+  }
+}

@@ -1,0 +1,84 @@
+TypeScript from Scratch
+
+1. Install Node.js (REQUIRED)
+
+   Install Node.js first:
+
+   👉 https://nodejs.org
+
+   After install, check:
+
+   node -v
+   npm -v
+
+   If versions appear → OK ✔
+
+2. Install TypeScript GLOBALLY
+
+   npm install -g typescript
+
+3. Verify TypeScript
+
+   tsc -v
+
+4. Create Project Folder
+
+   mkdir my-app
+   cd my-app
+
+5. Initialize Node Project
+
+   npm init -y
+
+6. Create TypeScript File
+
+   app.ts
+
+7. Write Code
+
+   console.log("Hello TypeScript");
+
+   const add = (a: number, b: number) => {
+     return a + b;
+   };
+
+   console.log(add(5, 10));
+
+8. Compile TypeScript (GLOBAL)
+
+   tsc app.ts
+
+ This creates:
+
+   app.js
+
+9. Run JavaScript with Node
+   node app.js
+
+ RESULT
+
+   Hello TypeScript
+   15
+
+ OPTIONAL: AUTO COMPILE MODE
+
+   tsc --watch
+
+📁 FINAL PROJECT STRUCTURE
+
+my-app/
+│
+├── app.ts
+├── app.js
+├── package.json
+
+
+📁 2. PROJECT LEVEL CONFIG (REAL “CONFIG FILE”)
+
+   tsconfig.json
+
+Create it:
+
+   tsc --init
+
+   tsc --watch

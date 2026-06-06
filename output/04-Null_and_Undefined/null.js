@@ -1,0 +1,11 @@
+"use strict";
+var isNull = null;
+var isUndefined = undefined;
+var isdata;
+isdata = "Mudasir";
+console.log(isNull);
+console.log(isUndefined);
+console.log(isdata);
+var userLoggedIn = null;
+userLoggedIn = true;
+console.log(userLoggedIn);
